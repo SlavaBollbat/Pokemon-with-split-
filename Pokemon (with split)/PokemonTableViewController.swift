@@ -10,7 +10,7 @@ import UIKit
 
 class PokemonTableViewController: UITableViewController {
     
-    var delegate: PokemonDelegate?
+    weak var delegate: PokemonDelegate?
 
     var arrayOfPokemons = ["bulbasaur", "pikachu", "mewtwo"]
     
